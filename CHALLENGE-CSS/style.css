@@ -1,0 +1,47 @@
+.challenge{
+	display: grid;
+	gap: 10px 10px;
+	grid-template-columns: 18% 60% 18%;
+	grid-template-rows: 20% 20% 600px 20%;
+	grid-template-areas: 
+	"A A A"
+	"B C E"
+	"B D E"
+	"F F F";
+}
+
+.A{
+	background-color: red;
+	grid-area: A;
+
+}
+
+.B{
+	background-color: green;
+	grid-area: B;
+
+}
+
+.C{
+	background-color: blue;
+	grid-area: C;
+
+}
+
+.D{
+	background-color: antiquewhite;
+	grid-area: D;
+
+}
+
+.E{
+	background-color: yellow;
+	grid-area: E;
+
+}
+
+.F{
+	background-color: mediumturquoise;
+	grid-area: F;
+
+}

@@ -1,0 +1,78 @@
+.challenge{
+	display: grid;
+	grid-template-columns: 100px 430px 100px;
+	grid-template-rows: 100px 100px 430px 100px;
+	grid-row-gap: 10px;
+	grid-column-gap: 0px;
+	margin: 50px auto;
+	background-color: white;
+	
+}
+
+
+body{
+	text-align: center;
+	background-color: white;
+	display: grid;
+}
+
+
+.A{
+	background: red;
+	grid-column: 1;
+	grid-row: 1;
+	height: 100px;
+	width: 620px;
+}
+
+
+.B{
+	background-color: blue;
+	grid-column: 2;
+	grid-row: 2;
+	height: 100px;
+	width: 420px;
+	
+}
+
+
+.C{
+	background-color: antiquewhite;
+	grid-column: 2;
+	grid-row: 3;
+	height: 430px;
+	width: 420px;
+	
+}
+
+
+.D{
+	background-color: green;
+	grid-column: 1;
+	grid-row: 2;
+	height: 540px;
+	width: 90px;
+
+	
+}
+
+
+.E{
+	background-color: mediumturquoise;
+	grid-row: 4;
+	grid-column: 1;
+	height: 100px;
+	width: 620px;
+	
+}
+
+
+.F{
+	background-color: yellow;
+	grid-column: 3;
+	grid-row: 2;
+	height: 540px;
+	width: 90px;
+	
+
+}
