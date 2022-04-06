@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="index.css">
+	<title>Formulaire DWWM</title>
+
+</head>
+
+<body>
+	<div><h1>Formulaire DWWM</h1>
+	<form action="FORMULAIRE DWWM" method="post">
+		<div class="row">
+			<div class="num">
+				<label for="user-name">Nom</label>
+			</div> 
+			<div class="dire">
+				<input type="name" name="user-name" placeholder ="Entrez votre nom" size="20" maxlength="20" >
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="num">
+				<label for="mail">Email</label>
+			</div>
+			<div class="dire">
+				<input type="email" name="user-email" placeholder="Entrez votre email" size="20" maxlength="20">
+			</div>
+		</div>
+		<div class="row">
+			<div class="num">
+				<label for="number">Indiquez votre satisfaction au cours de 1 à 10</label>
+			</div>
+			<div class="dire">
+				<input type="text" name="numéro" placeholder="numéro de 1 à 10" size="20" maxlength="20">
+			</div>
+		</div>
+		<div class="row">
+			<div class="num">
+				<label for="name">Qui est votre Coach?</label>
+			</div>
+			<div class="dire">
+				<select>
+				      <option value="">Mamadou</option>
+				      <option value="">Malick</option>
+				      <option value="">Birante</option>
+			     </select>
+			</div>
+		</div>
+		<div class="row">
+		    <div class="num"><p>A quel moment avez-vous cours?</p>
+		    </div>
+		    <div class="dire">
+		    	<blockquote>
+			          <input type="radio" name="text"> Matin<br>
+			          <input type="radio" name="text"> Après-midi<br>
+			          <input type="radio" name="text"> Soir<br>
+		        </blockquote>
+		    </div>
+		</div>
+		<div class="row">
+		     <div class="num">
+		     	<label for="text">Quels outils avez-vous rencontrés jusque là?
+		       (Selectionnez tout ce qui s'applique)</label>
+		     </div>
+		     <div class="dire">
+		     	<blockquote>
+			          <input type="checkbox" name="text"> HTML<br>
+			          <input type="checkbox" name="text"> CSS<br>
+			          <input type="checkbox" name="text"> JavaScript<br>
+			          <input type="checkbox" name="text"> Editeur de texte<br>
+			          <input type="checkbox" name="text"> Ligne de commande
+			    </blockquote>
+		     </div>
+		
+		</div>
+		<div class="row">
+			<div class="num">
+		     	<label for="text">Décrivez votre expérience jusque là</label>
+		     </div>
+		     <div class="dire">
+		     	<textarea name="message" cols="23" rows="3" placeholder="Décrivez votre expérience ici..."></textarea>
+
+		     </div>
+		</div>
+        <div class="bouton">
+           <button>Envoyer</button>
+       </div>
+			
+	</form>
+	</div>
+
+
+</body>
+</html>
